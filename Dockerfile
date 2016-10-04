@@ -5,10 +5,9 @@ FROM alpine:edge
 # forked from https://github.com/andredumas/docker-travis-ci-cli
 # MAINTAINER André Dumas
 # MAINTAINER Antón R. Yuste
+#
+# Points Maintainer
 MAINTAINER Arco van den Heuvel
-
-RUN addgroup web && adduser -D -H -G web travis
-USER travis
 
 RUN apk --update add \
   ca-certificates \
