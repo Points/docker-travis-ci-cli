@@ -1,4 +1,4 @@
-# docker-travis-ci-cli
+# points-travis-ci-cli
 # forked from https://github.com/andredumas/docker-travis-ci-cli
 
 Docker container for [travis ci client](http://blog.travis-ci.com/2013-01-14-new-client/) following 
